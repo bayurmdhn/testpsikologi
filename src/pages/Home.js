@@ -1,15 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import divBacground from '../background';
 
 function Home() {
   return (
-    <div className="w-full h-screen bg-black flex flex-col items-center justify-center"
-    style={divBacground}
-    >
     <div className="w-[450px] h-80 bg-white flex justify-center items-center rounded-xl">
         <div className="w-96 flex flex-col justify-center items-center">
-            <img className='mb-5' src='/assets/LogoCarakan.png' alt='logo' width={80} height={80}/>
+            <img className='mb-5' src='/LogoCarakan.png' alt='logo' width={80} height={80}/>
             <h1 className="text-center font-bold text-xl">Selamat Datang</h1>
             <p className="text-center text-lg">Test Psikologi PT.Carakan Sadhana Dirgantara</p>
             <p className="text-center">test ini diselenggarakan untuk penilaian awal peserta Teaching Factory</p>
@@ -21,7 +17,6 @@ function Home() {
                 </button>
             </Link>
         </div>
-    </div>
     </div>
   )
 }
