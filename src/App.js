@@ -23,7 +23,7 @@ function App() {
             <Route path="/Biodata" element={<Biodata/>}/>
           </Routes>
         </Router>
-
+        
         <Router>
           <Routes>
              <Route path="/" element={<Biodata/>}/>
