@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-export default function Soal() {
+export default function Question() {
   return (
         <div>
             <div className="w-[450px] h-80 bg-white flex justify-center items-center rounded-xl">

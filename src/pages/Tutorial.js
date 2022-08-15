@@ -5,7 +5,9 @@ export default function Tutorial() {
   return (
           <div className="w-[450px] h-80 bg-white flex justify-center items-center rounded-xl">
             <div className="w-96 flex flex-col justify-center items-center">
-              <p className="text-center">Tutorial nanti ketik disini</p>
+            <h1 className="text-center font-bold text-xl">PETUNJUK DAN CONTOH UNTUK KELOMPOK SOAL 01</h1>
+            <h5 className="text-center font-bold text-xl">(Soal Soal No.01-20)</h5>
+              <p className="text-center">Soal-soal terdiri atas kalimat-kalimat. Pada setiap kalimat satu kata hilang dan disediakan 5(lima) kata pilihan sebagai penggantinya.Pilihan kata yang tepat dapat menyempurnakan kalimat itu !</p>
 
             <Link to='/Question'>
               <button className=' bg-black text-white rounded-sm px-5 mt-10 flex gap-5 py-2'> <span>Mulai Test</span>
