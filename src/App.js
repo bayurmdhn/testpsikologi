@@ -2,6 +2,7 @@ import React from 'react'
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Biodata from "./pages/Biodata";
+import Tutorial from "./pages/Tutorial"
 import background from ".//bg.png"
 
 
@@ -20,10 +21,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/Biodata" element={<Biodata/>}/>
-          </Routes>
+             <Route path="/" element={<Biodata/>}/>
+             <Route path="/Tutorial" element={<Tutorial/>}/>
+           </Routes>
         </Router>
-    </div>
-    </div>
+</div>
+</div>
   );
 }
 
