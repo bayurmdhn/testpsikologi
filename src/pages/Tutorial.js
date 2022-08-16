@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Tutorial() {
   return (
-          <div className="w-[450px] h-80 bg-white flex justify-center items-center rounded-xl">
+          <div className="w-[500px] h-80 bg-white flex justify-center items-center rounded-xl">
             <div className="w-96 flex flex-col justify-center items-center">
             <h1 className="text-center font-bold text-xl">PETUNJUK DAN CONTOH UNTUK KELOMPOK SOAL 01</h1>
             <h5 className="text-center font-bold text-xl">(Soal Soal No.01-20)</h5>
