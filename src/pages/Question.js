@@ -6,7 +6,7 @@ export default function Question() {
         <div>
           <div className="w-[800px] h-80 bg-white flex justify-center items-center rounded-xl">
           <div className="w-96 flex flex-col justify-center items-center">
-          <p className="text-center">Soal Ketik Disini</p>
+          <p className="text-center">Soal Nanti Disini</p>
 
           <Link to='/LastPage'>
             <button className=' bg-black text-white rounded-sm px-5 mt-10 flex gap-5 py-2'> <span>Selanjutnya</span>
