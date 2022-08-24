@@ -5,8 +5,6 @@ import Biodata from "./pages/Biodata";
 import Tutorial from "./pages/Tutorial"
 import Question from "./pages/Question"
 import LastPage from "./pages/LastPage"
-import Login from "./pages_admin/Login"
-import DataSiswa from "./pages_admin/DataSiswa"
 import background from ".//bg.png"
 
 

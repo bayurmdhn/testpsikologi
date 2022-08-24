@@ -3,24 +3,24 @@ import { Link } from 'react-router-dom'
 
 export default function Biodata() {
   return (
-    <div className="w-[450px] h-100 bg-white flex justify-center items-center rounded-xl">
+    <div className="w-[450px] h-100 bg-slate-50 flex justify-center items-center rounded-xl">
           <div className="w-96 flex flex-col justify-center items-center">
             <h1 className="text-center font-bold text-xl">Silahkan isi Biodata Anda</h1>
-            <div className='bg-slate-500 w-full'>
+            <div className='bg-slate-700 text-slate-200 w-full'>
               <form className='' action='#' method='POST'>
                 <label className='text-sm'>Nama Lengkap</label>
                 <input 
                     id="nama-lengkap"
                    name="nama-lengkap"
                     type="nama-lengkap"
-                   autoComplete="nama-lengkap"
+                 autoComplete="nama-lengkap"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-3 py-2 border border-gray-300
+                    w-full px-2 py-1 border border-gray-300
                    placeholder-gray-500 text-gray-900 rounded-t-md
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Nama Lengkap" />
+                    placeholder="Ketik Disini..." />
                   <label className='text-sm'>Sekolah Asal</label>
                   <input 
                     id="sekolah-asal"
@@ -29,11 +29,11 @@ export default function Biodata() {
                     autoComplete="sekolah-asal"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-3 py-2 border border-gray-300
+                    w-full px-2 py-1 border border-gray-300
                     placeholder-gray-500 text-gray-900 rounded-t-md
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Sekolah Asal" />
+                    placeholder="Ketik Disini..." />
                   <label className='text-sm'>Nomor Telepon</label>
                   <input 
                     id="no-telp"
@@ -42,11 +42,11 @@ export default function Biodata() {
                     autoComplete="no-telp"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-3 py-2 border border-gray-300
+                    w-full px-2 py-1 border border-gray-300
                     placeholder-gray-500 text-gray-900 rounded-t-md
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Nomor Telepon" />
+                    placeholder="Ketik Disini..." />
                     <label className='text-sm'>Email Address</label>
                   <input 
                     id="email-address"
@@ -55,11 +55,11 @@ export default function Biodata() {
                     autoComplete="email"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-3 py-2 border border-gray-300
+                    w-full px-2 py-1 border border-gray-300
                     placeholder-gray-500 text-gray-900 rounded-t-md
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Email address" />
+                    placeholder="Ketik Disini..." />
               </form>
             </div>
             

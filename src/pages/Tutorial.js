@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Tutorial() {
   return (
-          <div className="w-[500px] h-80 bg-white flex justify-center items-center rounded-xl">
+          <div className="w-[1050px] h-[600px] bg-white flex justify-center items-center rounded-xl">
             <div className="w-96 flex flex-col justify-center items-center">
               <p className="text-center">Tutor Nanti Disini</p>
 
