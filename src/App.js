@@ -1,4 +1,3 @@
-import React from 'react'
 import Home from "./pages/Home";
 import Login from "./pages/Login"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
@@ -9,8 +8,8 @@ import LastPage from "./pages/LastPage"
 import Table from "./pages/Table"
 import background from ".//bg.png"
 
-
 function App() {
+ 
   return (
     <div className="w-full flex justify-center" id="home">
     <div className="w-full h-screen flex flex-col items-center justify-center"
