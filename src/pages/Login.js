@@ -7,7 +7,7 @@ function Login() {
       <div className="w-96 flex flex-col justify-center items-center">
         <img className='mb-5' src='/LogoCarakan.png' alt='logo' width={70} height={70}/>
             <h1 className="text-center font-bold text-xl">Silahkan masukkan email anda</h1>
-            <div className='bg-slate-700 text-white w-full'>
+            <div className='bg-white text-black w-full'>
               <form className='' action='#' method='POST'>
                 <label className='text-sm'>Email</label>
                 <input 

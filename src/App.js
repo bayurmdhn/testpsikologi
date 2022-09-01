@@ -2,6 +2,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Biodata from "./pages/Biodata";
+import DataSiswa from "./pages/DataSiswa";
 import Tutorial_A from "./pages/Tutorials/Tutorial_A";import Question_A from "./pages/Questions/Question_A";
 import Tutorial_B from "./pages/Tutorials/Tutorial_B";import Question_B from "./pages/Questions/Question_B";
 import Tutorial_C from "./pages/Tutorials/Tutorial_C";import Question_C from "./pages/Questions/Question_C";
@@ -33,6 +34,7 @@ function App() {
             <Route path="/Login" element={<Login/>}/>
             <Route path="/Biodata" element={<Biodata/>}/>
             <Route path="/Table" element={<Table/>}/>
+            <Route path="/DataSiswa" element={<DataSiswa/>}/>
             <Route path="/Tutorial_A" element={<Tutorial_A/>}/> <Route path="/Question_A" element={<Question_A/>}/>
             <Route path="/Tutorial_B" element={<Tutorial_B/>}/> <Route path="/Question_B" element={<Question_B/>}/>
             <Route path="/Tutorial_C" element={<Tutorial_C/>}/> <Route path="/Question_C" element={<Question_C/>}/>

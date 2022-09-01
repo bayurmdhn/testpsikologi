@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function DataSiswa(){
   return(
@@ -39,7 +40,9 @@ export default function DataSiswa(){
                         bintangaul27@gmail.com
                     </td>
                     <td class="py-4 px-6">
+                        <Link to='/Data Siswa'>
                         <a href="#" class="font-bold text-blue-600 dark:text-blue-600 hover:underline">Periksa</a>
+                        </Link>
                     </td>
                 </tr>
                 <tr class="bg-gray-50 border-b dark:bg-white dark:border-gray-700">

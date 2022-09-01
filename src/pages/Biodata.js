@@ -6,7 +6,7 @@ export default function Biodata() {
     <div className="w-[450px] h-[370px] bg-slate-50 flex justify-center items-center rounded-xl">
           <div className="w-96 flex flex-col justify-center items-center">
             <h1 className="text-center font-bold text-xl">Silahkan isi Biodata Anda</h1>
-            <div className='bg-slate-700 text-slate-200 w-full'>
+            <div className='bg-white text-black w-full'>
               <form className='' action='#' method='POST'>
                 <label className='text-sm'>Nama Lengkap</label>
                 <input 
