@@ -6,7 +6,7 @@ export default function LastPage() {
         <div className="w-96 flex flex-col justify-center items-center">
         <img className='mb-5' src='/LogoCarakan.png' alt='logo' width={80} height={80}/>
             <h1 className="text-center font-bold text-xl">Jawaban Anda Telah Direkam</h1>
-            <p className="text-center">Terimakasih sudah mengikuti test ini sampai jumpa lain waktu</p>
+            <p className="text-center">Terimakasih sudah mengikuti test ini sampai jumpa di lain waktu</p>
         </div>
     </div>
   )
