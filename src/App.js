@@ -42,15 +42,15 @@ function App() {
             <Route path="/Login" element={<Login/>}/>
             <Route path="/Biodata" element={<Biodata/>}/>
             <Route path="/Table" element={<Table/>}/>
-            <Route path="/Tutorial_A" element={<Tutorial_A/>}/><Route path="/Question_A" element={<Question_A/>}/>
+            <Route path="/Tutorial_A" element={<Tutorial_A/>}/> <Route path="/Question_A" element={<Question_A/>}/>
             <Route path="/Tutorial_B" element={<Tutorial_B/>}/> <Route path="/Question_B" element={<Question_B/>}/>
-            <Route path="/Tutorial_A" element={<Tutorial_C/>}/><Route path="/Question_C" element={<Question_C/>}/>
-            <Route path="/Tutorial_A" element={<Tutorial_D/>}/><Route path="/Question_D" element={<Question_D/>}/>
-            <Route path="/Tutorial_A" element={<Tutorial_E/>}/><Route path="/Question_E" element={<Question_E/>}/>
-            <Route path="/Tutorial_A" element={<Tutorial_F/>}/><Route path="/Question_F" element={<Question_F/>}/>
-            <Route path="/Tutorial_A" element={<Tutorial_G/>}/><Route path="/Question_G" element={<Question_G/>}/>
-            <Route path="/Tutorial_A" element={<Tutorial_H/>}/><Route path="/Question_H" element={<Question_H/>}/>
-            <Route path="/Tutorial_A" element={<Tutorial_I/>}/><Route path="/Question_I" element={<Question_I/>}/>
+            <Route path="/Tutorial_C" element={<Tutorial_C/>}/> <Route path="/Question_C" element={<Question_C/>}/>
+            <Route path="/Tutorial_D" element={<Tutorial_D/>}/> <Route path="/Question_D" element={<Question_D/>}/>
+            <Route path="/Tutorial_E" element={<Tutorial_E/>}/> <Route path="/Question_E" element={<Question_E/>}/>
+            <Route path="/Tutorial_F" element={<Tutorial_F/>}/> <Route path="/Question_F" element={<Question_F/>}/>
+            <Route path="/Tutorial_G" element={<Tutorial_G/>}/> <Route path="/Question_G" element={<Question_G/>}/>
+            <Route path="/Tutorial_H" element={<Tutorial_H/>}/> <Route path="/Question_H" element={<Question_H/>}/>
+            <Route path="/Tutorial_I" element={<Tutorial_I/>}/> <Route path="/Question_I" element={<Question_I/>}/>
             <Route path="/LastPage" element={<LastPage/>}/>
             <Route path="/Table" element={<Table/>}/>
            </Routes>
