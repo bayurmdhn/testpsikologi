@@ -40,7 +40,7 @@ export default function DataSiswa(){
                         bintangaul27@gmail.com
                     </td>
                     <td class="py-4 px-6">
-                        <Link to='/Data Siswa'>
+                        <Link to='/DataSiswa'>
                         <a href="#" class="font-bold text-blue-600 dark:text-blue-600 hover:underline">Periksa</a>
                         </Link>
                     </td>
@@ -59,7 +59,9 @@ export default function DataSiswa(){
                         Adalah_gwehj@gmail.com
                     </td>
                     <td class="py-4 px-6">
+                    <Link to='/DataSiswa'>
                         <a href="#" class="font-bold text-blue-600 dark:text-blue-600 hover:underline">Periksa</a>
+                    </Link>
                     </td>
                 </tr>
             </tbody>
