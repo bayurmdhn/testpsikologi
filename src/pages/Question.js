@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState, useRef, useEffect } from 'react'
+import axios from "axios";
 
 export default function Question() {
   const Ref = useRef(null);
@@ -78,11 +79,45 @@ export default function Question() {
   const onClickReset = () => {
       clearTimer(getDeadTime());
   }
+
+  const [dataQuestion, setDataQuestion] = useState([]);
+
+  useEffect(() =>{
+    axios.get("https://dev-quizbde6t.microgen.id/api/questions?select=questionChoices,question&limit=300")
+    .then(res => res.data)
+    .then(data => setDataQuestion(data))
+    .catch(er => console.log(er))
+  },[])
+
+
   return (
         <div>
           <div className="w-[1050px] h-[600px] bg-white flex justify-center items-center rounded-xl">
-          <div className="w-96 flex flex-col justify-center items-center">
+          <div className=" w-11/12 flex flex-col justify-center items-center">
             <p className="text-center">Soal Nanti Disini</p>
+
+            <div className='flex flex-col overflow-y-auto h-[400px] gap-7'>
+                {dataQuestion?.map((item,i) => {
+                    return(
+                        <div key={i}>
+                            <div className='flex gap-2'>    
+                                <span>{i + 1}.</span>
+                                <h2 key={item.id}>{item.question}</h2>
+                            </div>
+                            <div className='flex gap-3'>
+                                {item.questionChoices.map(ans => {
+                                    return(
+                                        <div className='flex gap-1'>
+                                            <input name={`choice${i}`} type={"radio"}/>
+                                            <span>{ans.answers}</span>
+                                            </div>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
 
             <Link to='/LastPage'>
               <button className=' bg-black text-white rounded-sm px-5 mt-10 flex gap-5 py-2'> <span>Selanjutnya</span>
