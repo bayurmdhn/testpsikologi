@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Biodata() {
   return (
-    <div className="w-[450px] h-[370px] bg-slate-50 flex justify-center items-center rounded-xl">
+    <div className="w-[450px] h-[370px] bg-white flex justify-center items-center rounded-xl">
           <div className="w-96 flex flex-col justify-center items-center">
             <h1 className="text-center font-bold text-xl">Silahkan isi Biodata Anda</h1>
             <div className='bg-white text-black w-full'>
