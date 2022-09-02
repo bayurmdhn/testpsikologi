@@ -6,7 +6,7 @@ export default function Tutorial() {
   const [dataTutorial, setDataTutorial] = useState([]);
 
   useEffect(() =>{
-    axios.get("https://dev-quizbde6t.microgen.id/api/tutorials?,tutorial&limit=20")
+    axios.get("https://dev-quizbde6t.microgen.id/api/tutorials?,tutorial&limit=20&where[categories]=TUTORIAL_F")
     .then(res => res.data)
     .then(data => setDataTutorial(data))
     .catch(er => console.log(er))
@@ -24,7 +24,7 @@ export default function Tutorial() {
                         <div key={i}>
                             <div className='flex gap-2'>    
                                 <span>{i + 1}.</span>
-                                <h2 key={item.id}>{item.tutorial}</h2>
+                                <h2 key={item.id}>{item.tutorials}</h2>
                             </div>
                             </div>
                     )

@@ -83,7 +83,7 @@ export default function Question() {
   const [dataQuestion, setDataQuestion] = useState([]);
 
   useEffect(() =>{
-    axios.get("https://dev-quizbde6t.microgen.id/api/questions?select=questionChoices,question&limit=20")
+    axios.get("https://dev-quizbde6t.microgen.id/api/questions?select=questionChoices,question&limit=20&where[categories]=SOAL_H")
     .then(res => res.data)
     .then(data => setDataQuestion(data))
     .catch(er => console.log(er))

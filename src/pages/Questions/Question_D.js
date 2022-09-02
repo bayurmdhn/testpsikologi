@@ -83,7 +83,7 @@ export default function Question() {
   const [dataQuestion, setDataQuestion] = useState([]);
 
   useEffect(() =>{
-    axios.get("https://dev-quizbde6t.microgen.id/api/questions?select=questionChoices,question&limit=20")
+    axios.get("https://dev-quizbde6t.microgen.id/api/questions?select=questionChoices,question&limit=20&where[categories]=SOAL_D")
     .then(res => res.data)
     .then(data => setDataQuestion(data))
     .catch(er => console.log(er))
@@ -93,7 +93,7 @@ export default function Question() {
   return (
         <div>
           <div className="w-[1050px] h-[600px] bg-white flex justify-center items-center rounded-xl">
-          <div className=" w-11/12 flex flex-col justify-center items-center">
+          <div className=" w-11/12 flex flex-col align-left items-right">
           <h1 className="text-center font-bold text-xl">Soal D</h1>
 
             <div className='flex flex-col overflow-y-auto h-[400px] gap-7'>
