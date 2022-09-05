@@ -21,7 +21,7 @@ function Login() {
                    placeholder-gray-500 text-gray-900 rounded-t-md rounded-b-md
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Email Address. . ." />
+                    placeholder="Ketik Disini..." />
                  <label className='text-sm'>Password</label>
                 <input 
                     id="password"
@@ -34,7 +34,7 @@ function Login() {
                    placeholder-gray-500 text-gray-900 rounded-t-md rounded-b-md
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Password. . ." />
+                    placeholder="Ketik Disini..." />
               </form>
             </div>
             

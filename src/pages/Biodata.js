@@ -47,7 +47,7 @@ export default function Biodata() {
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
-                    <label className='text-sm'>Email Address</label>
+                    <label className='text-sm'>Alamat Email</label>
                   <input 
                     id="email-address"
                     name="email"
