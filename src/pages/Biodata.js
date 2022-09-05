@@ -17,7 +17,7 @@ export default function Biodata() {
                     required
                     className="appearance-none rounded-none relative block
                     w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
-                   placeholder-gray-500 text-gray-900
+                   placeholder-gray-700 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
@@ -30,7 +30,7 @@ export default function Biodata() {
                     required
                     className="appearance-none rounded-none relative block
                     w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
-                    placeholder-gray-500 text-gray-900
+                    placeholder-gray-700 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
@@ -43,7 +43,7 @@ export default function Biodata() {
                     required
                     className="appearance-none rounded-none relative block
                     w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
-                    placeholder-gray-500 text-gray-900
+                    placeholder-gray-700 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
@@ -56,7 +56,7 @@ export default function Biodata() {
                     required
                     className="appearance-none rounded-none relative block
                     w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
-                    placeholder-gray-500 text-gray-900
+                    placeholder-gray-700 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
