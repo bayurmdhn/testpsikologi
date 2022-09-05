@@ -17,11 +17,11 @@ function Login() {
                    autoComplete="email-address"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-3 py-2 border border-gray-300
-                   placeholder-gray-500 text-gray-900 rounded-t-md
+                    w-full px-3 py-2 border border-black
+                   placeholder-gray-500 text-gray-900 rounded-t-md rounded-b-md
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Email Address" />
+                    placeholder="Email Address. . ." />
                  <label className='text-sm'>Password</label>
                 <input 
                     id="password"
@@ -30,11 +30,11 @@ function Login() {
                    autoComplete="password"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-3 py-2 border border-gray-300
-                   placeholder-gray-500 text-gray-900 rounded-t-md
+                    w-full px-3 py-2 border border-black
+                   placeholder-gray-500 text-gray-900 rounded-t-md rounded-b-md
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Password" />
+                    placeholder="Password. . ." />
               </form>
             </div>
             

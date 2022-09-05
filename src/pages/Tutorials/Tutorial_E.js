@@ -16,7 +16,7 @@ export default function Tutorial() {
         <div>
           <div className="w-[1050px] h-[600px] bg-white flex justify-center items-center rounded-xl">
           <div className=" w-11/12 flex flex-col justify-center items-center">
-          <h1 className="text-center font-bold text-xl">Tutorial Soal E</h1>
+          <h1 className="text-center font-bold text-xl">Cara Mengerjakan Soal ke-5</h1>
 
             <div className='flex flex-col overflow-y-auto h-[400px] gap-7'>
                 {dataTutorial?.map((item,i) => {

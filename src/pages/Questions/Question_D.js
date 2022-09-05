@@ -94,7 +94,7 @@ export default function Question() {
         <div>
           <div className="w-[1050px] h-[600px] bg-white flex justify-center items-center rounded-xl">
           <div className=" w-11/12 flex flex-col align-left items-right">
-          <h1 className="text-center font-bold text-xl">Soal D</h1>
+          <h1 className="text-center font-bold text-xl">Soal ke-4</h1>
 
             <div className='flex flex-col overflow-y-auto h-[400px] gap-7'>
                 {dataQuestion?.map((item,i) => {

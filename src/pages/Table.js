@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function DataSiswa(){
   return(
     <div class="overflow-x-auto shadow-md sm:rounded-lg w-[900px]">
-        <h1 className="text-center text-white font-semibold text-xl">Daftar Peserta Test</h1>
+        <h1 className="text-center text-white font-bold mb-3 text-xl">Daftar Peserta Test</h1>
         <table class="w-full text-sm text-left text-white dark:text-black">
             <thead class="text-xs text-white uppercase bg-gray-50 dark:bg-black dark:text-white">
                 <tr>

@@ -16,8 +16,8 @@ export default function Biodata() {
                  autoComplete="nama-lengkap"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-2 py-1 border border-gray-300
-                   placeholder-gray-500 text-gray-900 rounded-t-md
+                    w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
+                   placeholder-gray-500 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
@@ -29,8 +29,8 @@ export default function Biodata() {
                     autoComplete="sekolah-asal"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-2 py-1 border border-gray-300
-                    placeholder-gray-500 text-gray-900 rounded-t-md
+                    w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
+                    placeholder-gray-500 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
@@ -42,8 +42,8 @@ export default function Biodata() {
                     autoComplete="no-telp"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-2 py-1 border border-gray-300
-                    placeholder-gray-500 text-gray-900 rounded-t-md
+                    w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
+                    placeholder-gray-500 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
@@ -55,8 +55,8 @@ export default function Biodata() {
                     autoComplete="email"
                     required
                     className="appearance-none rounded-none relative block
-                    w-full px-2 py-1 border border-gray-300
-                    placeholder-gray-500 text-gray-900 rounded-t-md
+                    w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
+                    placeholder-gray-500 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
