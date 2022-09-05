@@ -64,6 +64,25 @@ export default function DataSiswa(){
                     </Link>
                     </td>
                 </tr>
+                <tr class="bg-gray-50 border-b dark:bg-white dark:border-gray-700">
+                    <th scope="row" class="py-4 px-6 font-semibold text-gray-900 whitespace-nowrap dark:text-black">
+                        Havid Setyanata
+                    </th>
+                    <td class="py-4 px-6">
+                        SMKN 2 Magelang
+                    </td>
+                    <td class="py-4 px-6">
+                        08555607080
+                    </td>
+                    <td class="py-4 px-6">
+                        Terkadang@gmail.com
+                    </td>
+                    <td class="py-4 px-6">
+                    <Link to='/DataSiswa'>
+                        <a href="#" class="font-bold text-blue-600 dark:text-blue-600 hover:underline">Periksa</a>
+                    </Link>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>   

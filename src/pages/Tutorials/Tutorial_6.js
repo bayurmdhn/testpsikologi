@@ -19,13 +19,10 @@ export default function Tutorial() {
           <h1 className="text-center font-bold text-xl">Cara Mengerjarkan Soal ke-6</h1>
 
             <div className='flex flex-col overflow-y-auto h-[400px] gap-7'>
-                {dataTutorial?.map((item,i) => {
+                {dataTutorial?.map((item) => {
                     return(
-                        <div key={i}>
                             <div className='flex gap-2'>    
-                                <span>{i + 1}.</span>
                                 <h2 key={item.id}>{item.tutorials}</h2>
-                            </div>
                             </div>
                     )
                 })}
