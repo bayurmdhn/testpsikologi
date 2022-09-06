@@ -14,9 +14,10 @@ export default function Tutorial() {
 
   return (
         <div>
-          <div className="w-[1050px] h-[600px] bg-white flex justify-center items-center rounded-xl">
+          <div className="w-[1050px] h-[600px] bg-white flex text-align-left items-left rounded-xl">
           <div className=" w-11/12 flex flex-col justify-center items-center">
           <h1 className="text-center font-bold text-xl">Cara Mengerjakan Soal ke-1</h1>
+          <h1 className="text-center font-bold text-xl">Petunjuk dan Contoh Untuk Kelompok Soal 01</h1>
 
             <div className='flex flex-col overflow-y-auto h-[400px] gap-7'>
                 {dataTutorial?.map((item) => {
