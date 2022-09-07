@@ -9,6 +9,9 @@ export default function DataSiswa(){
             <thead class="text-xs text-white uppercase bg-gray-50 dark:bg-black dark:text-white">
                 <tr>
                     <th scope="col" class="py-3 px-6">
+                        NISN
+                    </th>
+                    <th scope="col" class="py-3 px-6">
                         Nama
                     </th>
                     <th scope="col" class="py-3 px-6">
@@ -28,8 +31,11 @@ export default function DataSiswa(){
             <tbody>
                 <tr class="bg-white border-b dark:bg-white dark:border-white">
                     <th scope="row" class="py-4 px-6 font-medium text-slate-700 whitespace-nowrap dark:text-black">
-                        Bintang Aulia Mahaputra
+                        0054777573
                     </th>
+                    <td class="py-4 px-6">
+                        Bintang Aulia Mahaputra
+                    </td>
                     <td class="py-4 px-6">
                         SMKN 2 Magelang
                     </td>
@@ -47,8 +53,11 @@ export default function DataSiswa(){
                 </tr>
                 <tr class="bg-gray-50 border-b dark:bg-white dark:border-gray-700">
                     <th scope="row" class="py-4 px-6 font-semibold text-gray-900 whitespace-nowrap dark:text-black">
-                        Kevin Christian Hwilianto
+                        0054238276
                     </th>
+                    <td class="py-4 px-6">
+                        Kevin Musliman 
+                    </td>
                     <td class="py-4 px-6">
                         SMKN 2 Magelang
                     </td>
@@ -66,8 +75,11 @@ export default function DataSiswa(){
                 </tr>
                 <tr class="bg-gray-50 border-b dark:bg-white dark:border-gray-700">
                     <th scope="row" class="py-4 px-6 font-semibold text-gray-900 whitespace-nowrap dark:text-black">
-                        Havid Setyanata
+                        0028276729
                     </th>
+                    <td class="py-4 px-6">
+                        Havid Setyanata
+                    </td>
                     <td class="py-4 px-6">
                         SMKN 2 Magelang
                     </td>
