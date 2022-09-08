@@ -13,7 +13,8 @@ import Tutorial_7 from "./pages/Tutorials/Tutorial_7";import Question_7 from "./
 import Tutorial_8 from "./pages/Tutorials/Tutorial_8";import Question_8 from "./pages/Questions/Question_8";
 import Tutorial_9 from "./pages/Tutorials/Tutorial_9";import Question_9 from "./pages/Questions/Question_9";
 import LastPage from "./pages/LastPage"
-import Table from "./pages/Table"
+import table from "./pages/Table";
+import User from "./pages/User"
 import background from ".//bg.png"
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/Login" element={<Login/>}/>
             <Route path="/Biodata" element={<Biodata/>}/>
-            <Route path="/Table" element={<Table/>}/>
+            <Route path="/User" element={<User/>}/>
             <Route path="/DataSiswa" element={<DataSiswa/>}/>
             <Route path="/Tutorial_1" element={<Tutorial_1/>}/> <Route path="/Question_1" element={<Question_1/>}/>
             <Route path="/Tutorial_2" element={<Tutorial_2/>}/> <Route path="/Question_2" element={<Question_2/>}/>
@@ -44,8 +45,8 @@ function App() {
             <Route path="/Tutorial_7" element={<Tutorial_7/>}/> <Route path="/Question_7" element={<Question_7/>}/>
             <Route path="/Tutorial_8" element={<Tutorial_8/>}/> <Route path="/Question_8" element={<Question_8/>}/>
             <Route path="/Tutorial_9" element={<Tutorial_9/>}/> <Route path="/Question_9" element={<Question_9/>}/>
-            <Route path="/LastPage" element={<LastPage/>}/>
             <Route path="/Table" element={<Table/>}/>
+            <Route path="/LastPage" element={<LastPage/>}/>
            </Routes>
         </Router>
 </div>
