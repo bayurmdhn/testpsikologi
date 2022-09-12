@@ -20,7 +20,7 @@ export default function Biodata() {
                    placeholder-gray-700 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Ketik Disini..." />
+                    placeholder="Ketik Nama Disini..." />
                   <label className='text-sm'>Sekolah Asal</label>
                   <input 
                     id="sekolah-asal"
@@ -33,7 +33,7 @@ export default function Biodata() {
                     placeholder-gray-700 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Ketik Disini..." />
+                    placeholder="Ketik Sekolah Disini..." />
                   <label className='text-sm'>NISN</label>
                   <input 
                     id="nisn"
@@ -59,7 +59,7 @@ export default function Biodata() {
                     placeholder-gray-700 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Ketik Disini..." />
+                    placeholder="Ketik Nomor Disini..." />
                     <label className='text-sm'>Alamat Email</label>
                   <input 
                     id="email-address"
@@ -72,7 +72,7 @@ export default function Biodata() {
                     placeholder-gray-700 text-gray-900
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Ketik Disini..." />
+                    placeholder="Ketik Email Disini..." />
               </form>
             </div>
             

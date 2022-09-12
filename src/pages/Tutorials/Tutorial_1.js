@@ -23,7 +23,7 @@ export default function Tutorial() {
                 {dataTutorial?.map((item) => {
                     return(
                             <div className='flex gap-2'>    
-                                <h2 key={item.id}>{item.tutorials}</h2>
+                                <h2 key={item.id}>{item.tutorials}{item.pictutorials}</h2>
                             </div>
                     )
                 })}
