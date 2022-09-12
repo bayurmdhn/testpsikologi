@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function table(){
+export default function Table(){
   return(
     <div class="overflow-x-auto shadow-md w-[1000px]">
         <h1 className="text-center text-white font-bold mb-3 text-xl">Daftar Peserta Test</h1>

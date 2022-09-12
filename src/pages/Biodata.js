@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Biodata() {
   return (
-    <div className="w-[450px] h-[370px] bg-white flex justify-center items-center rounded-xl">
+    <div className="w-[450px] h-[400px] bg-white flex justify-center items-center rounded-xl">
           <div className="w-96 flex flex-col justify-center items-center">
             <h1 className="text-center font-bold text-xl">Silahkan isi Biodata Anda</h1>
             <div className='bg-white text-black w-full'>
@@ -34,6 +34,19 @@ export default function Biodata() {
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik Disini..." />
+                  <label className='text-sm'>NISN</label>
+                  <input 
+                    id="nisn"
+                    name="nisn"
+                    type="nisn"
+                    autoComplete="nisn"
+                    required
+                    className="appearance-none rounded-none relative block
+                    w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
+                    placeholder-gray-700 text-gray-900
+                    focus:outline-none focus:ring-indigo-500
+                    focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
+                    placeholder="Ketik NISN Disini..." />
                   <label className='text-sm'>Nomor Telepon</label>
                   <input 
                     id="no-telp"
