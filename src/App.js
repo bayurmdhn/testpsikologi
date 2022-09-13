@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Biodata from "./pages/Biodata";
-import DataSiswa from "./pages/DataSiswa";
+import Report from "./pages/Report";
 import Tutorial_1 from "./pages/Tutorials/Tutorial_1";import Question_1 from "./pages/Questions/Question_1";
 import Tutorial_2 from "./pages/Tutorials/Tutorial_2";import Question_2 from "./pages/Questions/Question_2";
 import Tutorial_3 from "./pages/Tutorials/Tutorial_3";import Question_3 from "./pages/Questions/Question_3";
@@ -26,7 +26,7 @@ function App() {
         width: '100%',
         height: '650px',
         backgroundImage: `url(${background})`,
-        backgroundSize: 'cover' 
+        backgroundSize: 'cover'
       }}
     >
         <Router>
@@ -37,7 +37,7 @@ function App() {
             <Route path="/Login" element={<Login/>}/>
             <Route path="/Biodata" element={<Biodata/>}/>
             <Route path="/LastPage" element={<LastPage/>}/>
-            <Route path="/DataSiswa" element={<DataSiswa/>}/>
+            <Route path="/Report" element={<Report/>}/>
             <Route path="/Tutorial_1" element={<Tutorial_1/>}/> <Route path="/Question_1" element={<Question_1/>}/>
             <Route path="/Tutorial_2" element={<Tutorial_2/>}/> <Route path="/Question_2" element={<Question_2/>}/>
             <Route path="/Tutorial_3" element={<Tutorial_3/>}/> <Route path="/Question_3" element={<Question_3/>}/>

@@ -90,7 +90,7 @@ export default function Table(){
                         Terkadang@gmail.com
                     </td>
                     <td class="py-4 px-6">
-                    <Link to='/DataSiswa'>
+                    <Link to='/Report'>
                         <a href="#" class="font-bold text-blue-600 dark:text-blue-600 hover:underline">Periksa</a>
                     </Link>
                     </td>
