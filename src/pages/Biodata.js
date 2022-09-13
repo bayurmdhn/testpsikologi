@@ -47,19 +47,6 @@ export default function Biodata() {
                     focus:outline-none focus:ring-indigo-500
                     focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
                     placeholder="Ketik NISN Disini..." />
-                  <label className='text-sm'>Nomor Telepon</label>
-                  <input 
-                    id="no-telp"
-                    name="no-telp"
-                    type="no-telp"
-                    autoComplete="no-telp"
-                    required
-                    className="appearance-none rounded-none relative block
-                    w-full px-2 py-1 border border-black rounded-t-md rounded-b-md
-                    placeholder-gray-700 text-gray-900
-                    focus:outline-none focus:ring-indigo-500
-                    focus:border-indigo-500 focus:z-10 mt-1 sm:text-sm"
-                    placeholder="Ketik Nomor Disini..." />
                     <label className='text-sm'>Alamat Email</label>
                   <input 
                     id="email-address"
