@@ -15,7 +15,7 @@ function Home() {
   return (
     <div className="w-[1050px] h-[600px] bg-white flex justify-center items-center" style={{position:'absolute',left:'90px'}}>
         <div className="w-96 flex flex-col justify-center items-center">
-          <h1 className='font-bold text-x1'>Soal 1 No.1-20</h1>
+          <h1 className='font-bold text-x1'>Soal 1 No.1-20🗿</h1>
         <div className='flex flex-col items-stretch justify-items-stretch overflow-y-auto h-[575px] gap-10'>
                 {dataQuestion?.map((item,i) => {
                     return(

@@ -1,7 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import axios from 'axios';
 
 export default function Biodata() {
+  const [dataUser, setDataUser] = useState([]);
+
+  useEffect(() =>{
+    axios.post("https://dev-quizbde6t.microgen.id/api/users?select",{
+    firstName: '',
+    school:'',
+    nisn:'',
+    email:''
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  })},[])
+
   return (
     <div className="w-[450px] h-[400px] bg-white flex justify-center items-center rounded-xl">
           <div className="w-96 flex flex-col justify-center items-center">
