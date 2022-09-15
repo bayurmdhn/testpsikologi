@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import axios from 'axios';
 
 export default function Biodata() {
-  const [dataUser, setDataUser] = useState([]);
+  const [dataUser, setData] = useState([]);
 
   useEffect(() =>{
     axios.post("https://dev-quizbde6t.microgen.id/api/users?select",{
